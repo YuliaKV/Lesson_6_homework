@@ -12,8 +12,8 @@
     @font-face {
      font-family: 'Cera Pro';
     src: local('CeraPro-Bold'),
-        url('./fonts/CeraPro-Bold.woff2') format(woff2),
-        url('./fonts/CeraPro-Bold.ttf') format(trutype);
+        url('../fonts/CeraPro-Bold.woff2') format(woff2),
+        url('../fonts/CeraPro-Bold.ttf') format(trutype);
     font-weight: 700;
     font-size: normal;
 
