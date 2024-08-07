@@ -1,4 +1,4 @@
-@import url(fonts.css);
+@import url(../fonts.css);
 
 
 body {
@@ -61,6 +61,8 @@ menu {
 
 .menu-button.active {
     color: #46A358;
+
+
 
 }
 
@@ -182,6 +184,7 @@ menu {
     top: 15px;
     font-family: inherit;
 }
+
 .sorting img {
 
     width: 16px;
