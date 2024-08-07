@@ -59,6 +59,10 @@ menu {
     line-height: 16px;
     color: #46A358;
     border-bottom: #46A358;
+}menu a {
+    
+    color: #3D3D3D;
+
 
 }
 
@@ -67,6 +71,12 @@ menu {
 
 
 }
+
+
+.sorting img {
+
+    width: 16px;
+    height: 16px;}
 
 .sorting {
     display: flex;
@@ -183,5 +193,4 @@ menu {
     line-height: 16px;
 
 
-
-}
+  
