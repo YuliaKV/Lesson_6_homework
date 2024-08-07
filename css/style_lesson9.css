@@ -81,19 +81,6 @@ menu {
 
 }
 
-.sorting img {
-
-    width: 16px;
-    height: 16px;
-}
-
-.sorting {
-    display: flex;
-    gap: 6px
-}
-
-
-
 .img-wrapper {
     width: 258px;
     height: 300px;
@@ -107,7 +94,7 @@ menu {
 
 .quick-buttons {
     display: flex;
-    justify-content: center;
+    padding: 8px 6px 8px;
     position: absolute;
     z-index: 1;
     transform: translateX(-50%);
@@ -194,4 +181,14 @@ menu {
     padding: 8px 10px;
     top: 15px;
     font-family: inherit;
+}
+.sorting img {
+
+    width: 16px;
+    height: 16px;
+}
+
+.sorting {
+    display: flex;
+    gap: 6px
 }
