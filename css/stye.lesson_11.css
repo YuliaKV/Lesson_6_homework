@@ -1,0 +1,142 @@
+@import url("../fonts.css");
+
+body {
+    font-family: "Cera Pro";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.first-container {
+    display: flex;
+    background-color: #FBFBFB;
+    width: 100%;
+    column-gap: 70px;
+    padding: 25px;
+
+
+}
+
+.first-container-block {
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    position: relative;
+}
+
+.first-container-block.first,
+.first-container-block.second {
+    border-right: 1px solid rgba(70, 163, 88, 0.1);
+    padding-right: 30px;
+    margin-right: 1px;
+
+    
+}
+
+.first-container-block p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #727272;
+}
+
+.first-container-block h3 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.second-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(110deg, #EDF6EF 0%, #52C368 100%);
+    width: 100%;
+    min-height: 90px;
+    padding: 0 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-container a {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    gap: 5px;
+    max-width: fit-content;
+    color: #3D3D3D;
+    align-items: center;
+
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    column-gap: 60px;
+    padding: 25px;
+    background-color: #FBFBFB;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.1);
+    text-align: left;
+
+}
+
+.social-container {
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 35px;
+}
+
+.footer-container {
+    flex: 1;
+    max-width: 204px;
+    color: #3D3D3D;
+    text-align: left;
+}
+
+.footer-container h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 10px;
+
+}
+
+.footer-container ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-container li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #727272;
+}
+
+.footer-container-info {
+    flex: 1;
+    margin-left: auto;
+}
+
+.social-block a {
+    height: 30px;
+    width: 30px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #727272;
+}
